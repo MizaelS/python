@@ -30,5 +30,3 @@ resultado = evaluar_caracter(caracter)
 
 # Imprimir resultados
 print(f"{resultado}")
-
-
