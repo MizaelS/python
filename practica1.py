@@ -15,11 +15,13 @@ def evaluar_caracter(caracter):
     # Se verifica si el caracter es alfabetico y no es una vocal entonces es una consonante
     elif caracter.isalpha():
         return "❌ El caracter es una consonante."
+    # Se verifca si el caracter es una un número
+    elif caracter.isalnum():
+        return "❌ El caracter es una número."
     # Si no es alfabecito entonces es un signo
     else:
         return "❌ El caracter es un signo."
-     
-    
+      
 # Obtener el caracter que ingrese el usuario 
 caracter = input("- Introduce el caracter a evaluar: ")
 
