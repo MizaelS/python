@@ -4,28 +4,29 @@
 #-----------------------------------------#
 
 def evaluar_caracter(caracter):
-    # Convertidos el caracter a minuscula para evitar falsos
+    # Convertir el carácter a minúscula para uniformidad y evitar falsos negativos
     caracter = caracter.lower()
+
     # Lissta de vocales
     vocales = ['a', 'e', 'i', 'o', 'u']
 
-    # Verificamos si el caracter es una vocal
+    # Verificar si el carácter es una vocal
     if caracter in vocales:
-        return "✅ Verdadero, el caracter es una vocal."
-    # Se verifica si el caracter es alfabetico y no es una vocal entonces es una consonante
+        return "✅ Verdadero, el carácter es una vocal."
+    # Si el carácter es alfabético y no es una vocal, entonces es una consonante
     elif caracter.isalpha():
-        return "❌ El caracter es una consonante."
-    # Se verifca si el caracter es una un número
-    elif caracter.isalnum():
-        return "❌ El caracter es un número."
-    # Si no es alfabecito entonces es un signo
+        return "❌ El carácter es una consonante."
+    # Si el carácter es alfanumérico, verificar si es un número
+    elif caracter.isdigit():
+        return "❌ El carácter es un número."
+    # Si el carácter no es alfabético ni numérico, entonces es un signo
     else:
-        return "❌ El caracter es un signo."
+        return "❌ El carácter es un signo."
       
-# Obtener el caracter que ingrese el usuario 
-caracter = input("- Introduce el caracter a evaluar: ")
+# Solicitar al usuario que ingrese un carácter
+caracter = input("- Introduce el carácter a evaluar: ")
 
-# Pasar los datos a la función
+# Pasar el carácter a la función y obtener el resultado
 resultado = evaluar_caracter(caracter)
 
 # Imprimir resultados
