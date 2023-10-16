@@ -17,7 +17,7 @@ def evaluar_caracter(caracter):
         return "❌ El caracter es una consonante."
     # Se verifca si el caracter es una un número
     elif caracter.isalnum():
-        return "❌ El caracter es una número."
+        return "❌ El caracter es un número."
     # Si no es alfabecito entonces es un signo
     else:
         return "❌ El caracter es un signo."
