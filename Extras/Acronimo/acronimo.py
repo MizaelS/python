@@ -4,11 +4,13 @@
 #           Generar Acronimos             #
 #-----------------------------------------#
 
+# Función para obtener el acronimo
 def obtener_acronimo(frase):
     palabras = frase.split()  # Divide la frase en palabras
     acronimo = "".join([palabra[0].upper() for palabra in palabras if palabra])  # Toma la primera letra de cada palabra
     return acronimo
 
+# Funcion principal
 def main():
     print("Generador de Acronimos")
     print("-----------------------")
@@ -19,5 +21,6 @@ def main():
         acronimo = obtener_acronimo(frase)
         print(f"Acrónimo: {acronimo}\n")
 
+# Al ejecutarse el programa se llama a la función main
 if __name__ == "__main__":
     main()
