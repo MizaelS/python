@@ -14,8 +14,8 @@ def obtener_acronimo(frase):
 def main():
     print("Generador de Acronimos")
     print("-----------------------")
-    while True:
-        frase = input("Ingrese la frase (o 'salir' para terminar): ")
+    while True: # Iniciar el bucle
+        frase = input("Ingrese la frase (o 'salir' para terminar): ") # Imprimir el mensaje de bienvenida y obtener la frase para sacar el acronimo
         if frase.lower() == 'salir': # Se usa "lower" para convertir el texto ingresado a minuscula
             break
         acronimo = obtener_acronimo(frase) # Llamar a la función obtener_acronimo con el dato frase obtenido del usuario
