@@ -6,9 +6,9 @@
 
 # Función para obtener el acronimo
 def obtener_acronimo(frase):
-    palabras = frase.split()  # Divide la frase en palabras
+    palabras = frase.split() # Divide la frase en palabras
     acronimo = "".join([palabra[0].upper() for palabra in palabras if palabra])  # Toma la primera letra de cada palabra
-    return acronimo
+    return acronimo # Se devuelve el acronimo generado
 
 # Funcion principal
 def main():
