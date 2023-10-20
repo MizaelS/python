@@ -17,7 +17,7 @@ def main():
     while True: # Iniciar el bucle
         frase = input("Ingrese la frase (o 'salir' para terminar): ") # Imprimir el mensaje de bienvenida y obtener la frase para sacar el acronimo
         if frase.lower() == 'salir': # Se usa "lower" para convertir el texto ingresado a minuscula
-            break
+            break # En caso de escribir "salir" se rompe el bucle y se sale del programa
         acronimo = obtener_acronimo(frase) # Llamar a la función obtener_acronimo con el dato frase obtenido del usuario
         print(f"Acrónimo: {acronimo}\n") # Impimir el acronimo obtenido
 
