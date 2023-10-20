@@ -18,7 +18,7 @@ def main():
         frase = input("Ingrese la frase (o 'salir' para terminar): ")
         if frase.lower() == 'salir': # Se usa "lower" para convertir el texto ingresado a minuscula
             break
-        acronimo = obtener_acronimo(frase)
+        acronimo = obtener_acronimo(frase) # Llamar a la función obtener_acronimo con el dato frase obtenido del usuario
         print(f"Acrónimo: {acronimo}\n") # Impimir el acronimo obtenido
 
 # Al ejecutarse el programa se llama a la función main
