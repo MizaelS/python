@@ -16,10 +16,10 @@ def main():
     print("-----------------------")
     while True:
         frase = input("Ingrese la frase (o 'salir' para terminar): ")
-        if frase.lower() == 'salir':
+        if frase.lower() == 'salir': # Se usa "lower" para convertir el texto ingresado a minuscula
             break
         acronimo = obtener_acronimo(frase)
-        print(f"Acrónimo: {acronimo}\n")
+        print(f"Acrónimo: {acronimo}\n") # Impimir el acronimo obtenido
 
 # Al ejecutarse el programa se llama a la función main
 if __name__ == "__main__":
