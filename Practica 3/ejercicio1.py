@@ -8,5 +8,5 @@ palabra = input("Ingrese una palabra: ")
 
 # Hacer el bucle de 10
 for i in range(10):
-    # Imrpimir el resultado
+    # Imrpimir el resultado en base al numero ingresado
     print(palabra)
