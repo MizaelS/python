@@ -85,10 +85,10 @@ while trabajando:
     # Logica para el cierre de caja
     elif opcion == '2':
         print("\nCierre de caja...")
-        print("Resumen de ventas:")
+        print("- Resumen de ventas:")
         for combustible, litros in ventas_litros.items():
             print(f"{combustible.capitalize()}: {litros} litros - $ {ventas_pesos[combustible]}")
-        print("Litros disponibles en cisterna:")
+        print("- Litros disponibles en cisterna:")
         for combustible, litros in cisterna.items():
             print(f"{combustible.capitalize()}: {litros} litros")
         sesion_iniciada = False  # Cerrar sesión para el siguiente usuario
