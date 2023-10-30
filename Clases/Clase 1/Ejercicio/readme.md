@@ -2,8 +2,6 @@
 
 El Índice de Masa Corporal (IMC) es una manera simple y comúnmente utilizada para categorizar a las personas en grupos de peso: bajo peso, peso normal, sobrepeso u obesidad. El IMC se calcula utilizando la siguiente fórmula:
 
-\[ \text{IMC} = \frac{\text{peso (kg)}}{\text{altura (m)}^2} \]
-
 #### Tarea:
 
 Desarrolla un programa en Python que realice lo siguiente:
