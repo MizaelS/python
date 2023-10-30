@@ -1,4 +1,3 @@
-```markdown
 # Clase 1: Inputs, Variables y Prints en Python
 
 En esta clase, aprenderemos sobre cómo obtener datos del usuario, almacenar estos datos en variables y mostrarlos en la consola utilizando la función `print`.
