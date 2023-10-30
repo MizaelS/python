@@ -1,6 +1,6 @@
 ### Problema: Calculadora de Índice de Masa Corporal (IMC)
 
-El Índice de Masa Corporal (IMC) es una manera simple y comúnmente utilizada para categorizar a las personas en grupos de peso: bajo peso, peso normal, sobrepeso u obesidad. El IMC se calcula utilizando la siguiente fórmula:
+El Índice de Masa Corporal (IMC) es una manera simple y comúnmente utilizada para categorizar a las personas en grupos de peso. El IMC se calcula dividiendo el peso (en kilogramos) entre el cuadrado de la altura (en metros).
 
 #### Tarea:
 
@@ -10,12 +10,7 @@ Desarrolla un programa en Python que realice lo siguiente:
 2. Solicita al usuario que ingrese su peso en kilogramos.
 3. Solicita al usuario que ingrese su altura en metros.
 4. Calcula el IMC utilizando la fórmula proporcionada.
-5. Muestra el IMC del usuario en la consola, junto con un mensaje que indique la categoría de peso correspondiente según el IMC calculado:
-
-   - Bajo peso: IMC < 18.5
-   - Peso normal: 18.5 ≤ IMC < 24.9
-   - Sobrepeso: 25 ≤ IMC < 29.9
-   - Obesidad: IMC ≥ 30
+5. Muestra el IMC del usuario en la consola.
 
 #### Ejemplo de Salida:
 
@@ -25,7 +20,6 @@ Desarrolla un programa en Python que realice lo siguiente:
 │ Peso: 70 kg
 │ Altura: 1.75 m
 │ IMC: 22.86
-│ Categoría: Peso normal
 ╰────────────────────────────
 ```
 
