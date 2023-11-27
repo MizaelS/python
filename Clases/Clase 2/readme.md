@@ -29,38 +29,48 @@ else:
 Este código evalúa si un número es positivo, negativo o cero.
 
 ## Bucles `for`
-Los bucles `for` permiten iterar sobre una secuencia, como una lista, un rango o una cadena de texto, ejecutando un bloque de código un número determinado de veces.
+Los bucles `for` son una forma eficiente de ejecutar un bloque de código repetidamente para cada elemento en una secuencia, como un rango, una lista o una cadena de texto.
+
+### Conceptos Clave:
+- **Iteración**: Es el proceso de ejecutar un conjunto de instrucciones repetidamente.
+- **Secuencia**: Puede ser cualquier objeto en Python sobre el que se pueda iterar, como listas, tuplas, diccionarios, conjuntos y cadenas.
+- **Rango**: El uso de `range()` en bucles `for` es común para generar secuencias de números.
 
 ### Ejemplos de uso:
-- **Iterando sobre un rango**:
+- **Iterar sobre una lista**:
   ```python
-  for i in range(1, 6):
+  colores = ["rojo", "verde", "azul"]
+  for color in colores:
+      print(color)
+  ```
+  Este código recorre cada elemento en la lista `colores` y lo imprime.
+
+- **Uso del rango**:
+  ```python
+  for i in range(10):
       print(i)
   ```
-  Imprime los números del 1 al 5.
-
-- **Iterando sobre una lista**:
-  ```python
-  frutas = ["manzana", "banana", "cereza"]
-  for fruta in frutas:
-      print(fruta)
-  ```
-  Recorre la lista de frutas e imprime cada elemento.
+  Imprime los números del 0 al 9.
 
 ## Bucles `while`
-El bucle `while` ejecuta un conjunto de instrucciones repetidamente mientras una condición sea verdadera. Es útil cuando no sabes cuántas veces necesitarás repetir una acción.
+Los bucles `while` repiten un bloque de código mientras una condición especificada sea verdadera. Son ideales para situaciones donde no se conoce de antemano el número de veces que se repetirá el bloque.
 
-### Ejemplo de uso:
-```python
-contador = 0
-while contador < 5:
-    print(contador)
-    contador += 1
-```
-Imprime los números del 0 al 4.
+### Conceptos Clave:
+- **Condición de Control**: El bucle se ejecuta mientras esta condición sea verdadera.
+- **Potencial de bucle infinito**: Es importante modificar la variable de control dentro del bucle para evitar repeticiones infinitas.
+
+### Ejemplos de uso:
+- **Estructura básica**:
+  ```python
+  contador = 0
+  while contador < 5:
+      print(contador)
+      contador += 1
+  ```
+  Imprime los números del 0 al 4. La condición `contador < 5` controla el número de iteraciones.
 
 ### Ejemplo Integrado
-Combinamos sentencias condicionales y bucles en un programa práctico:
+Utilizamos tanto bucles como sentencias condicionales en un ejemplo práctico:
 
 ```python
 # Solicitamos un número al usuario
