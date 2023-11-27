@@ -6,9 +6,7 @@ Desarrolla un programa que permita al usuario convertir temperaturas entre grado
 #### Detalles:
 1. **Selección del Tipo de Conversión**: El programa debe comenzar preguntando al usuario si desea convertir de Celsius a Fahrenheit o viceversa.
 2. **Ingreso de la Temperatura**: Solicita al usuario que ingrese el valor de la temperatura a convertir.
-3. **Cálculo de la Conversión**: 
-    - Si es de Celsius a Fahrenheit, utiliza la fórmula \( F = C \times \frac{9}{5} + 32 \).
-    - Si es de Fahrenheit a Celsius, utiliza \( C = (F - 32) \times \frac{5}{9} \).
+3. **Cálculo de la Conversión**: Realiza la conversión según la opción elegida.
 4. **Mostrar Resultado**: Muestra la temperatura convertida en la consola.
 
 #### Consideraciones:
