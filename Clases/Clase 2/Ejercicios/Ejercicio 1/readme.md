@@ -3,7 +3,7 @@
 #### Descripción:
 Un palíndromo es una palabra o frase que se lee igual hacia adelante y hacia atrás, ignorando los espacios, signos de puntuación y mayúsculas. Desarrolla un programa que determine si una palabra o frase ingresada por el usuario es un palíndromo.
 
-#### Tareas Detalladas:
+#### Tarea:
 1. Solicita al usuario que ingrese una cadena de texto.
 2. Elimina los espacios y convierte el texto a minúsculas (o mayúsculas) para una comparación uniforme.
 3. Invierte el texto y compáralo con el original.
