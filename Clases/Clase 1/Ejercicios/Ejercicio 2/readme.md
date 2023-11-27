@@ -3,7 +3,7 @@
 #### Descripción:
 Desarrolla un programa en Python que convierta temperaturas de Celsius a Fahrenheit y viceversa. El usuario debe poder elegir qué tipo de conversión desea realizar.
 
-#### Tarea:
+#### Detalles:
 1. Solicita al usuario si quiere convertir de Celsius a Fahrenheit o de Fahrenheit a Celsius.
 2. Solicita al usuario que ingrese la temperatura.
 3. Realiza la conversión correspondiente.
